@@ -1,0 +1,21 @@
+@media (min-width:370px) and (max-width:1000px) {
+    .nav-link {
+        color: black;
+    }
+    .nav-link:active {
+        border-bottom: none;
+    }
+    .nav-link:hover {
+        color: #0F8021;
+    }
+    h5::before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        box-sizing: border-box;
+        width: 8.4em;
+        background: black;
+        border: 1px solid black;
+        border-width: 0 1.5em;
+    }
+}

@@ -1,0 +1,441 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/opensans.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url("../fonts/opensansbold.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    transition: .2s ease-in-out;
+    height: 50px;
+    background-position: top;
+    position: fixed;
+    width: 100%;
+    font-family: 'OpenSans';
+    line-height: normal;
+    background-color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    background-color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link {
+    color: white;
+    margin: 20px;
+}
+
+.nav-link:active {
+    border-bottom: 3px solid #0F8021;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+
+/* ---- Main --------*/
+
+.main {
+    width: 100%;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-section {}
+
+.title-text {
+    margin-top: 9.4em;
+    padding-left: 18em;
+}
+
+#tasty {
+    font-family: 'OpenSans';
+    color: #0F8021;
+}
+
+#tasty-under_title {
+    font-family: 'OpenSans';
+    font-size: 24px;
+    color: #000000;
+}
+
+#tasty-under_title_description {
+    float: left;
+    width: 18em;
+    padding-top: 0.43em;
+    font-family: 'OpenSans';
+    font-size: 16px;
+    color: #000000;
+}
+
+#logo {
+    width: 19em;
+    margin-top: 15em;
+    margin-left: 9em;
+}
+
+
+/* -------all content----- */
+
+.all-contents {
+    width: 100%;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/*------ first-section--------- */
+
+.type-of-delivery {}
+
+.type-of-delivery-contents {
+    margin-top: 0.4%;
+    padding-top: 3%;
+}
+
+.contents__title {
+    width: 52%;
+    font-family: 'OpenSansBold';
+}
+
+#type-of-delivery-contents__title-explain {
+    margin-left: 12em;
+    font-family: 'OpenSans';
+}
+
+h5::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 9.4em;
+    height: 1px;
+    background: black;
+    border: solid #F5F5F5;
+    border-width: 0 1.5em;
+}
+
+h5::after {
+    margin-right: -100%;
+}
+
+.type-of-delivery-contents__variant {
+    margin-top: 1.7em;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.type-of-delivery-contents__variant-way h6 {
+    margin: 1% auto;
+}
+
+.type-of-delivery-contents__variant-way {
+    margin: 2% auto;
+    width: 20em;
+}
+
+.delivery {
+    height: 150px;
+    width: 150px;
+    background-color: #C4C4C4;
+}
+
+.type-of-delivery-contents__variant-know-more {
+    background: #0F8021;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-family: 'OpenSans';
+    padding: 8px 10px;
+    transition: 0.5s linear;
+}
+
+.type-of-delivery-contents__variant-know-more:hover {
+    transform: scale(1.3);
+    color: #0F8021;
+    background: white;
+}
+
+
+/* -----second-section------ */
+
+.menu {}
+
+.menu-contents {
+    margin-top: 3%;
+}
+
+.menu-type-title {
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 1.2em 2.1em 1.1em 1em;
+}
+
+.menu-type {
+    height: 300px;
+    width: 94%;
+    margin-top: 7%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    transition: 0.2s linear;
+}
+
+.menu-type:hover {
+    transform: scale(1.1);
+}
+
+.vegan {
+    background-image: url("../img/menu-vegan.jpg");
+}
+
+.asian {
+    background-image: url("../img/menu-asian.jpg");
+}
+
+.healthy {
+    background-image: url("../img/menu-healthy.jpg");
+}
+
+.bakery {
+    background-image: url("../img/menu-bakery.jpg");
+}
+
+.fruits {
+    background-image: url("../img/menu-fruits.jpg");
+}
+
+.fast-food {
+    background-image: url("../img/menu-fast-food.jpg");
+}
+
+
+/* ------third section-------- */
+
+.advantages {
+    margin-top: 5%;
+}
+
+.advantages-contents__variant {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.check {
+    height: 3.1em;
+    width: 3.1em;
+    background-image: url("../img/check.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.advantages-contents__variant-way h6 {
+    margin: 5% auto;
+    font-family: 'OpenSansBold';
+    font-size: 16px;
+}
+
+.advantages-contents__variant-way {
+    margin: 2% auto;
+    width: 20em;
+    font-family: 'OpenSans';
+    font-size: 16px;
+}
+
+
+/* -------fourth section ------*/
+
+.reviews {
+    margin-top: 5%;
+}
+
+.reviews-contents__variant {
+    width: 500px;
+}
+
+.reviews-contents-carusel {
+    width: 44em;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin: 2.4em auto;
+    text-align: left;
+}
+
+.reviews-contents-carusel__items {
+    width: 70%;
+    margin: 5em auto;
+    font-family: 'OpenSans';
+    font-size: 16px;
+}
+
+.reviews-name {
+    color: #0F8021;
+}
+
+.reviews-name~span {
+    color: white;
+}
+
+.reviews-contents-button {
+    background: #0F8021;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5em;
+    transition: 0.5s linear;
+}
+
+.reviews-contents-button:hover {
+    transform: scale(1.1);
+    color: #0F8021;
+    background: white;
+}
+
+#polygon {
+    float: right;
+    position: absolute;
+    bottom: 0;
+}
+
+.card {
+    border-radius: 5px;
+}
+
+
+/* -----fifth section------ */
+
+.order {
+    padding-bottom: 3%;
+}
+
+.order-picture {
+    width: 150px;
+    background-image: url("../img/menu.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.order-contents__variant {
+    margin-top: 5%;
+}
+
+form {
+    font-family: 'OpenSans';
+    font-size: 16px;
+}
+
+form input {
+    border-radius: 5px;
+    padding: 0.2em;
+}
+
+form div {
+    margin-top: 3%;
+}
+
+.btn-send {
+    margin-top: 4%;
+}
+
+
+/* ----Fotter ----*/
+
+.footer {
+    background: #000000;
+    color: white;
+    font-family: 'OpenSans';
+    text-decoration: none;
+    padding-bottom: 2%;
+}
+
+.footer-contents {
+    padding-top: 6%;
+    margin-top: 0.29em;
+}
+
+.footer-menu {
+    float: left;
+}
+
+.text-white a {
+    text-decoration: none;
+    color: white;
+}
+
+.text-white a:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.tasty {
+    margin-top: 8%;
+}
+
+.phone {
+    padding: 3%;
+}
+
+
+/* ----Modal---- */
+
+.modal-header {
+    color: white;
+    background: #0F8021;
+}
+
+.modal-body-contents {
+    font-family: 'OpenSans';
+}
+
+.modal-body-contents~p {
+    font-family: 'OpenSansBold';
+    font-size: 16px;
+}
+
+.modal-menu-img {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    right: 3%;
+    top: 9%;
+}
+
+.healthy-modal {
+    width: 40%;
+}
+
+.menu-list {
+    margin-left: 3%;
+    width: 50%;
+}
+
+.menu-order-btn {
+    text-decoration: none;
+    color: white;
+    background: #0F8021;
+}
+
+.menu-order-btn:hover {
+    text-decoration: none;
+    color: white;
+}

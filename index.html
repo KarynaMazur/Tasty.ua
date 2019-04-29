@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Tasty</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+
+    <!--   header -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <button class=" navbar-light bg-light navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+            <div class="collapse navbar-collapse justify-content-center  align-items-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="nav-item nav-link active" href="#main">Главная<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#delivery-type">Виды доставки</a>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Наши меню
+                                </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" id="vegan-li">Вегетарианская пища</a>
+                            <a class="dropdown-item" id="asian-li">Восточная кухня</a>
+                            <a class="dropdown-item" id="healthy-li">Здоровая пища</a>
+                            <a class="dropdown-item" id="bakery-li">Хлебобулочные изделия</a>
+                            <a class="dropdown-item" id="fruits-li">Фрукты</a>
+                            <a class="dropdown-item" id="fastfood-li">Фаст-фуд</a>
+                        </div>
+                    </div>
+                    <a class="nav-item nav-link " href="#contacts">Контакты</a>
+                    <a class="nav-item nav-link " href="#order">Сделать заказ</a>
+
+
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!--main-->
+
+    <main id="main" class="container-fluid main">
+        <div class=" first-section">
+            <div class="row logo-section">
+                <div class=" col-md-6 col-sm-6 col-xs-6 ">
+                    <div class="title-text  ">
+                        <h1 id="tasty">
+                            Tasty.ua
+                        </h1>
+                        <p id="tasty-under_title">
+                            Питайся вкусно!
+                        </p>
+                        <span id="tasty-under_title_description">
+        Tasty.ua - dolor sit amet, consectetur<br> adipiscing elit. Sed nec lacus dolor
+</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 ">
+                    <img id="logo" src="./img/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--all contents-->
+
+    <div class="all-contents ">
+        <!--first-section-->
+        <div id="delivery-type" class="container-fluid type-of-delivery">
+            <div class="container align-items-center type-of-delivery-contents">
+                <div class="contents__title">
+                    <h5> Виды доставки</h5>
+                    <div id="type-of-delivery-contents__title-explain">
+                        <span>Мы предоставляем два вида доставки. <br>чтобы каждый мог использовать <br>Tasty.ua на полную.</span>
+                    </div>
+                </div>
+                <div class="row type-of-delivery-contents__variant  ">
+                    <div class="container col-md-6 col-sm-12 d-flex flex-column justify-content-center  align-items-center ">
+                        <div class="delivery" src="./img/prto.png" alt=""></div>
+                        <div class="type-of-delivery-contents__variant-way">
+                            <h6>Одноразовая доставка</h6>
+                            <span>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec lacus dolor. Nullam molestie hendrerit viverra. Vivamus cursus .
+                            </span>
+
+                        </div>
+
+                        <button class="type-of-delivery-contents__variant-know-more moreone" data-toggle="collapse" href="#collapseExampleOne" role="button" aria-expanded="false" aria-controls="collapseExampleOne">                       
+                              Узнать больше                                                          
+                         </button>
+                        <div class="collapse moreone " id="collapseExampleOne">
+                            <div class="card ">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container col-md-6 col-sm-12 d-flex flex-column justify-content-center  align-items-center ">
+                        <div class="delivery" src="./img/prto.png" alt=""></div>
+                        <div class="type-of-delivery-contents__variant-way">
+                            <h6>Еда на каждый день</h6>
+                            <span>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec lacus dolor. Nullam molestie hendrerit viverra. Vivamus cursus .
+                              </span>
+
+                        </div>
+                        <button class="type-of-delivery-contents__variant-know-more " data-toggle="collapse" href="#collapseExampleTwo" role="button" aria-expanded="false" aria-controls="collapseExampleTwo">                       
+                           
+                                Узнать больше                                                          
+                            </button>
+                        <div class="collapse" id="collapseExampleTwo">
+                            <div class="card ">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--second-section -->
+        <div id="menu" class="container-fluid menu">
+            <div class="container align-items-center menu-contents">
+                <div class="contents__title">
+                    <h5> Наши меню</h5>
+                </div>
+                <div class="row menu-contents__variant">
+                    <div class="col-md-4 col-sm-4 d-flex flex-column justify-content-center align-items-center">
+                        <div class='menu-type vegan' data-toggle="modal" data-target=".bd-example-modal-vegan">
+                            <div class="menu-type-title">
+                                <span>Вегетарианская пища</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 d-flex flex-column justify-content-center    align-items-center">
+                        <div class='menu-type asian' data-toggle="modal" data-target=".bd-example-modal-asian">
+                            <div class="menu-type-title">
+                                <span>Восточная кухня</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 d-flex flex-column justify-content-center  align-items-center">
+                        <div class='menu-type healthy' data-toggle="modal" data-target=".bd-example-modal-healthy">
+                            <div class="menu-type-title">
+                                <span>Здоровая пища</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-md-4 col-sm-4 d-flex flex-column justify-content-center  align-items-center">
+                        <div class='menu-type bakery' data-toggle="modal" data-target=".bd-example-modal-bakery">
+                            <div class="menu-type-title">
+                                <span>Хлебобулочные изделия</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 d-flex flex-column justify-content-center  align-items-center">
+                        <div class='menu-type fruits' data-toggle="modal" data-target=".bd-example-modal-fruits">
+                            <div class="menu-type-title">
+                                <span>Фрукты</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 d-flex flex-column justify-content-center  align-items-center">
+                        <div class='menu-type fast-food' data-toggle="modal" data-target=".bd-example-modal-fast-food">
+                            <div class="menu-type-title">
+                                <span>Фаст-фуд</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-----------third section-------->
+        <div class="container-fluid advantages">
+            <div class="container align-items-center advantages-contents">
+                <div class="contents__title">
+                    <h5> Почему мы? </h5>
+                </div>
+                <div class="row advantages-contents__variant ">
+                    <div class="container col-md-4 col-sm-12 d-flex flex-column justify-content-center  align-items-center ">
+                        <div class="check"></div>
+                        <div class="advantages-contents__variant-way">
+                            <h6>Lorem ipsum</h6>
+                            <span>
+                                    dolor sit amet, consectetur adipiscing elit. Sed nec lacus dolor
+                                </span>
+
+                        </div>
+                    </div>
+                    <div class="container col-md-4 col-sm-12 d-flex flex-column justify-content-center  align-items-center ">
+                        <div class="check"></div>
+                        <div class="advantages-contents__variant-way">
+                            <h6>Lorem ipsum</h6>
+                            <span>
+                                    dolor sit amet, consectetur adipiscing elit. Sed nec lacus dolor
+                                  </span>
+                        </div>
+                    </div>
+                    <div class="container col-md-4 col-sm-12 d-flex flex-column justify-content-center  align-items-center ">
+                        <div class="check"></div>
+                        <div class="advantages-contents__variant-way">
+                            <h6>Lorem ipsum</h6>
+                            <span>
+                                    dolor sit amet, consectetur adipiscing elit. Sed nec lacus dolor
+                                      </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--------fouurth section----->
+        <div class="container-fluid reviews">
+            <div class="container align-items-center reviews-contents">
+                <div class="contents__title">
+                    <h5> Отзывы наших клиентов </h5>
+                </div>
+                <div class="bd-example   ">
+                    <div id="carouselExampleIndicators" class="reviews-contents-carusel  carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="reviews-contents-carusel__items">
+                                    <p class="reviews-name">Татьяна, 01.01.2019</p>
+                                    <span>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec lacus dolor. Nullam molestie hendrerit viverra. Vivamus cursus .Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Sed nec lacus dolor. Nullam molestie hendrerit viverra. Vivamus cursus .
+                                      </span>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="reviews-contents-carusel__items">
+                                    <p class="reviews-name">Татьяна, 01.01.2019</p>
+                                    <span>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec lacus dolor. Nullam molestie hendrerit viverra. Vivamus cursus .Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Sed nec lacus dolor. Nullam molestie hendrerit viverra. Vivamus cursus .
+                                              </span>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="reviews-contents-carusel__items">
+                                    <p class="reviews-name">Татьяна, 01.01.2019</p>
+                                    <span>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec lacus dolor. Nullam molestie hendrerit viverra. Vivamus cursus .Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Sed nec lacus dolor. Nullam molestie hendrerit viverra. Vivamus cursus .
+                                              </span>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div id="addreview" class="col-md-4 d-flex flex-column justify-content-center  align-items-center"><button class=" reviews-contents-button ">Поделиться впечатлениями!</button></div>
+                    <div class="col-md-4">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -----fifth section---- -->
+        <form id="order" method="POST" action="http://localhost:3010/api/email" class="container-fluid order">
+            <div class="container align-items-center order-contents">
+                <div class="contents__title">
+                    <h5> Сделай заказ! </h5>
+                </div>
+                <div class="row order-contents__variant ">
+                    <div class="container col-md-6 col-sm-12   ">
+                        <fieldset>
+                            <div>
+                                <label for="name">
+                                        <span>Имя:</span>                                        
+                                        </label>
+                                <input id="name" name="user_name" type="text" required>
+                            </div>
+                            <div>
+                                <label for="phone">
+                                            <span>Номер телефона:</span>
+                                            <input type="text" name="user_phone" required>
+                                        </label>
+                            </div>
+                            <div>
+                                <label for="e-mail">
+                                                <span>E-mail:</span>
+                                                <input type="email" name="user_email" value="qweqewqe@mailinator.com" placeholder="Enter your e-mail">
+                                               
+                                            </label>
+                            </div>
+                        </fieldset>
+                        <div>
+                            <p>Какой вид доставки вам подойдет?</p>
+                            <label>                
+                                                    <span>Одноразовая</span>
+                                                    <input value="Одноразовая" type="radio" name="type_delivery" >
+                                                </label><br>
+                            <label>                
+                                                        <span>На каждый день</span>
+                                                        <input value="На каждый день" type="radio" name="type_delivery"  >
+                                                    </label>
+                        </div>
+                        <!-- Button trigger modal -->
+
+                    </div>
+
+                    <div class="container col-md-6 col-sm-12 flot  ">
+
+                        <div>
+                            <span>Какое меню вы хотите заказать</span>
+                            <select name="delivery_menu">                                                  
+                                            <option value="Вегетарианская пища">Вегетарианская пища</option>
+                                            <option value="Восточная кухня">Восточная кухня</option>
+                                            <option value="Здоровая пища">Здоровая пища</option>
+                                            <option value="Хлебобулочные изделия">Хлебобулочные изделия</option>
+                                            <option value="Фрукты">Фрукты</option>
+                                            <option value="Фаст-фуд">Фаст-фуд</option>                                        
+                                            </select>
+                        </div>
+                        <div>
+                            <label for="menu-number">
+                                                <span>Номер меню:</span>
+                                                <input type="number" name="menu_number"  placeholder="0">
+                                               
+                                            </label>
+                        </div>
+                        <div>
+                            <span>Выберите город доставки:</span>
+                            <select name="user_city">                                                  
+                                            <option value="Киев">Киев</option>
+                                            <option value="Львов">Львов</option>
+                                            <option value="Харьков">Харьков</option>
+                                            </select>
+                        </div>
+                        <div>
+                            <label>
+                                                            <span>Адресс доставки:</span>
+                                                            <input type="text" name="user_address" placeholder="Enter delivery address">
+                                                           
+                                                        </label>
+                        </div>
+                        <div>
+                            <input placeholder="rjorw" type="checkbox" id="rules" name="accept" required>
+                            <label for="rules">
+                                                Я согласен с условиями обработки персональных данных
+                                                        </label>
+                        </div>
+
+                    </div>
+                    <div class="col-md-11  d-flex flex-column justify-content-center align-items-center">
+                        <button type="submit" class="btn btn-primary  btn-send" data-toggle="modal" data-target="#exampleModal">
+                                    Заказать
+                                  </button>
+                    </div>
+                    <div class="col-md-1">
+                        <a href="#main">
+                            <img id="polygon" src="./img/Polygon.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+
+    <footer id="contacts" class="container-fluid footer">
+        <div class="container align-items-center ">
+            <div class="row footer-contents">
+                <div class="col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">
+                    <div class="footer-menu">
+                        <div>Наши меню:</div>
+                        <div class="text-white"><a href="#">Вегетарианская пища</a></div>
+                        <div class="text-white"><a href="#">Восточная кухня</a></div>
+                        <div class="text-white"><a href="#"> Здоровая пища</a></div>
+                        <div class="text-white"><a href="#">Хлебобулочные изделия</a></div>
+                        <div class="text-white"><a href="#">Фрукты </a></div>
+                        <div class="text-white"><a href="#">Фаст-фуд</a></div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">
+                    <div class="footer-menu">
+                        <div class="text-white"><a href="https://www.google.com.ua/maps/place/вулиця+Академіка+Янгеля,+66,+Київ,+02000/@50.4476734,30.4509787,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cc270e596821:0x94be213565ba2ffe!8m2!3d50.4476734!4d30.4531674">Киев, ул. Академика Янгеля 66</a></div>
+                        <div class="phone">+38(099)-999-99-99<br> +38(097)-999-99-99</div>
+                        <div class="text-white"><a href="https://mail.google.com">tasty_food@gmail.com</a></div>
+                        <div class="footer-menu">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tasty">© Tasty.com, 2019 г. Все права защищены.</div>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal-vegan-menu -->
+    <div class="modal fade bd-example-modal-vegan" id="exampleModalVegan" tabindex="-1" role="dialog" aria-labelledby="VeganModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-vegan" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title modal-header-text" id="exampleModalVegan">Вегетарианское меню</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-contents">
+                        <p>Мы предлагаем:</p>
+                        <img class="modal-menu-img" src="./img/modal-vegan.jpg" alt="">
+                        <div class="menu-list">
+                            <p>Меню №1</p>
+                            <ul>
+                                <li>Завтрак: lorem; ipsum; dolor; sit; amet;</li>
+                                <li>Второй завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Обед:ipsum: dolor; amet;</li>
+                                <li>Полдник: ipsum; dolor; sit; amet;</li>
+                                <li>Ужин: ipsum; dolor; sit; amet;</li>
+                            </ul>
+                            <p>Меню №2</p>
+                            <ul>
+                                <li>Завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Второй завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Обед:ipsum: dolor; sit; amet;</li>
+                                <li>Полдник: ipsum; dolor; sit; amet;</li>
+                                <li>Ужин: ipsum; dolor; sit; amet;</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" id="btn-modal-order-vegan" class="btn btn-primary "><a href="#order"  class="menu-order-btn" >Заказать</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal-asian-menu -->
+    <div class="modal fade bd-example-modal-asian" id="exampleModalAsian" tabindex="-1" role="dialog" aria-labelledby="AsianModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-asian" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title modal-header-text" id="exampleModalAsian">Восточная кухня</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-contents">
+                        <p>Мы предлагаем:</p>
+                        <img class="modal-menu-img" src="./img/modal-asian.jpg" alt="">
+                        <div class="menu-list">
+                            <p>Меню №1</p>
+                            <ul>
+                                <li>Завтрак: lorem; ipsum; dolor; sit; amet;</li>
+                                <li>Второй завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Обед:ipsum: dolor; amet;</li>
+                                <li>Полдник: ipsum; dolor; sit; amet;</li>
+                                <li>Ужин: ipsum; dolor; sit; amet;</li>
+                            </ul>
+                            <p>Меню №2</p>
+                            <ul>
+                                <li>Завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Второй завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Обед:ipsum: dolor; sit; amet;</li>
+                                <li>Полдник: ipsum; dolor; sit; amet;</li>
+                                <li>Ужин: ipsum; dolor; sit; amet;</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" id="btn-modal-order-asian" class="btn btn-primary "><a class="menu-order-btn" href="#order">Заказать</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal-health-menu -->
+    <div class="modal fade bd-example-modal-healthy" id="exampleModalHealthy" tabindex="-1" role="dialog" aria-labelledby="HealthyModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-healthy" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title modal-header-text" id="exampleModalHealthy"> Здоровая пища</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-contents">
+                        <p>Мы предлагаем:</p>
+                        <img class="modal-menu-img healthy-modal" src="./img/modal-healthy.jpg" alt="">
+                        <div class="menu-list">
+                            <p>Меню №1</p>
+                            <ul>
+                                <li>Завтрак: lorem; ipsum; dolor; sit; amet;</li>
+                                <li>Второй завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Обед:ipsum: dolor; amet;</li>
+                                <li>Полдник: ipsum; dolor; sit; amet;</li>
+                                <li>Ужин: ipsum; dolor; sit; amet;</li>
+                            </ul>
+                            <p>Меню №2</p>
+                            <ul>
+                                <li>Завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Второй завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Обед:ipsum: dolor; sit; amet;</li>
+                                <li>Полдник: ipsum; dolor; sit; amet;</li>
+                                <li>Ужин: ipsum; dolor; sit; amet;</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" id="btn-modal-order-healthy" class="btn btn-primary "><a class="menu-order-btn" href="#order">Заказать</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal-bakery-menu -->
+    <div class="modal fade bd-example-modal-bakery" id="exampleModalBakery" tabindex="-1" role="dialog" aria-labelledby="BakeryModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-bakery" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title modal-header-text" id="exampleModalBakery">Хлебобулочные изделия</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-contents">
+                        <p>Мы предлагаем:</p>
+                        <img class="modal-menu-img" src="./img/modal-bakery.jpg" alt="">
+                        <div class="menu-list">
+                            <p>Меню №1</p>
+                            <ul>
+                                <li>Завтрак: lorem; ipsum; dolor; sit; amet;</li>
+                                <li>Второй завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Обед:ipsum: dolor; amet;</li>
+                                <li>Полдник: ipsum; dolor; sit; amet;</li>
+                                <li>Ужин: ipsum; dolor; sit; amet;</li>
+                            </ul>
+                            <p>Меню №2</p>
+                            <ul>
+                                <li>Завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Второй завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Обед:ipsum: dolor; sit; amet;</li>
+                                <li>Полдник: ipsum; dolor; sit; amet;</li>
+                                <li>Ужин: ipsum; dolor; sit; amet;</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" id="btn-modal-order-bakery" class="btn btn-primary "><a class="menu-order-btn" href="#order">Заказать</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal-fruits-menu -->
+    <div class="modal fade bd-example-modal-fruits" id="exampleModalFruits" tabindex="-1" role="dialog" aria-labelledby="FruitsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fruits" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title modal-header-text" id="exampleModalFruits">Фрукты</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-contents">
+                        <p>Мы предлагаем:</p>
+                        <img class="modal-menu-img" src="./img/modal-fruits.jpg" alt="">
+                        <div class="menu-list">
+                            <p>Меню №1</p>
+                            <ul>
+                                <li>Завтрак: lorem; ipsum; dolor; sit; amet;</li>
+                                <li>Второй завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Обед:ipsum: dolor; amet;</li>
+                                <li>Полдник: ipsum; dolor; sit; amet;</li>
+                                <li>Ужин: ipsum; dolor; sit; amet;</li>
+                            </ul>
+                            <p>Меню №2</p>
+                            <ul>
+                                <li>Завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Второй завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Обед:ipsum: dolor; sit; amet;</li>
+                                <li>Полдник: ipsum; dolor; sit; amet;</li>
+                                <li>Ужин: ipsum; dolor; sit; amet;</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" id="btn-modal-order-fruits" class="btn btn-primary "><a class="menu-order-btn" href="#order">Заказать</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal-fast-food-menu -->
+    <div class="modal fade bd-example-modal-fast-food" id="exampleModalFastFood" tabindex="-1" role="dialog" aria-labelledby="FastFoodModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fast-food" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title modal-header-text" id="exampleModalFastFood">Фаст-фуд</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-contents">
+                        <p>Мы предлагаем:</p>
+                        <img class="modal-menu-img" src="./img/modal-fastfood.jpg" alt="">
+                        <div class="menu-list">
+                            <p>Меню №1</p>
+                            <ul>
+                                <li>Завтрак: lorem; ipsum; dolor; sit; amet;</li>
+                                <li>Второй завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Обед:ipsum: dolor; amet;</li>
+                                <li>Полдник: ipsum; dolor; sit; amet;</li>
+                                <li>Ужин: ipsum; dolor; sit; amet;</li>
+                            </ul>
+                            <p>Меню №2</p>
+                            <ul>
+                                <li>Завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Второй завтрак: ipsum; dolor; sit; amet;</li>
+                                <li>Обед:ipsum: dolor; sit; amet;</li>
+                                <li>Полдник: ipsum; dolor; sit; amet;</li>
+                                <li>Ужин: ipsum; dolor; sit; amet;</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" id="btn-modal-order-fastfood" class="btn btn-primary "><a class="menu-order-btn" href="#order">Заказать</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" name="user_order" id="success-order-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">Ваш заказ принят</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                </div>
+                <div class="modal-body">
+                    Номер заказа:
+                    <span class="order-id"></span>
+                    <p>Наши операторы свяжутся с вами для уточнения заказа :)</p>
+                </div>
+                <div class="modal-footer">
+                   <span> Спасибо, что выбрали Tasty.ua </span><br>
+                    <button type="button" id="btn-modal-order" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/style.js"></script>
+    <script src="js/send-mail.js"></script>
+
+</body>
+
+
+</html>
